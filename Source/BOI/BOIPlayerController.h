@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
+#include "ProjectileBase.h"
 #include "BOIPlayerController.generated.h"
 
 UCLASS()
@@ -21,23 +22,35 @@ protected:
 	// Begin PlayerController interface
 	virtual void PlayerTick(float DeltaTime) override;
 	virtual void SetupInputComponent() override;
+	// Projectile class to spawn.
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+	TSubclassOf<class AProjectileBase> ProjectileClass;
 	// End PlayerController interface
 
 	/** Resets HMD orientation in VR. */
-	void OnResetVR();
+	// void OnResetVR();
 
 	/** Navigate player to the current mouse cursor location. */
-	void MoveToMouseCursor();
+	// void MoveToMouseCursor();
+public:
+	UFUNCTION()
+	void MoveRight(float Value);
+	UFUNCTION()
+	void MoveForward(float Value);
+	UFUNCTION()
+	void Fire();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	FVector MuzzleOffset;
 	/** Navigate player to the current touch location. */
-	void MoveToTouchLocation(const ETouchIndex::Type FingerIndex, const FVector Location);
+	// void MoveToTouchLocation(const ETouchIndex::Type FingerIndex, const FVector Location);
 	
 	/** Navigate player to the given world location. */
-	void SetNewMoveDestination(const FVector DestLocation);
+	// void SetNewMoveDestination(const FVector DestLocation);
 
 	/** Input handlers for SetDestination action. */
-	void OnSetDestinationPressed();
-	void OnSetDestinationReleased();
+	// void OnSetDestinationPressed();
+	// void OnSetDestinationReleased();
 };
 
 

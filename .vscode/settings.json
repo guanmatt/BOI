@@ -1,7 +1,11 @@
 {
 	"files.exclude": {
+		"C:/Users/Matthew/Documents/Unreal Projects/BOI/.git": true,
+		"C:/Users/Matthew/Documents/Unreal Projects/BOI/.vs": true,
 		"C:/Users/Matthew/Documents/Unreal Projects/BOI/.vscode": true,
 		"C:/Users/Matthew/Documents/Unreal Projects/BOI/Content": true,
-		"C:/Users/Matthew/Documents/Unreal Projects/BOI/Intermediate": true
+		"C:/Users/Matthew/Documents/Unreal Projects/BOI/DerivedDataCache": true,
+		"C:/Users/Matthew/Documents/Unreal Projects/BOI/Intermediate": true,
+		"C:/Users/Matthew/Documents/Unreal Projects/BOI/Saved": true
 	}
 }
