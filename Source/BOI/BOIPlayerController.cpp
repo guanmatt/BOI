@@ -9,6 +9,7 @@
 #include "GameFramework/Controller.h"
 #include "BOICharacter.h"
 #include "Math/Vector.h"
+#include "Kismet/KismetMathLibrary.h"
 #include "Engine/World.h"
 
 ABOIPlayerController::ABOIPlayerController()
@@ -145,17 +146,25 @@ void ABOIPlayerController::Fire()
 			FActorSpawnParameters SpawnParams;
 			SpawnParams.Owner = GetPawn();
 			SpawnParams.Instigator = GetPawn()->GetInstigator();
+	
 
 			FVector CameraLocation;
 			FRotator CameraRotation;
 			GetActorEyesViewPoint(CameraLocation, CameraRotation);
-			// UE_LOG(LogTemp, Warning, TEXT("%s"), *CameraLocation.ToString());
 			AProjectileBase* Projectile = World->SpawnActor<AProjectileBase>(CameraLocation, CameraRotation, SpawnParams);
+			float Dist = FVector::Dist(CameraLocation, CursorLocation);
+
+			if (Dist > 100.0f) 
+			{
+				Dist = 100.0f;
+			}
 			if (Projectile)
 			{
-				UE_LOG(LogTemp, Warning, TEXT("FIRED"));
-				FVector Direction = CursorLocation-CameraLocation;
-				Projectile->FireInDirection(Direction.GetSafeNormal(1.0f));
+				// UE_LOG(LogTemp, Warning, TEXT("FIRED"));
+				CursorLocation.Z = 100.0f;
+				FVector Direction = UKismetMathLibrary::ClampVectorSize(CursorLocation-CameraLocation, 0, 100.0f);
+				UE_LOG(LogTemp, Warning, TEXT("%s"), *Direction.ToString());
+				Projectile->FireInDirection(Direction);
 			}
 		}
 	

@@ -1,0 +1,57 @@
+[
+	{
+		"file": "C:\\\\Users\\\\Matthew\\\\Documents\\\\Unreal Projects\\\\BOI\\\\Source\\\\BOI\\\\BOI.Build.cs",
+		"command": "cl.exe @\"C:\\Users\\Matthew\\Documents\\Unreal Projects\\BOI\\.vscode\\compileCommands_BOI\\BOI.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Matthew\\\\Documents\\\\Unreal Projects\\\\BOI\\\\Source\\\\BOI\\\\BOI.cpp",
+		"command": "cl.exe @\"C:\\Users\\Matthew\\Documents\\Unreal Projects\\BOI\\.vscode\\compileCommands_BOI\\BOI.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Matthew\\\\Documents\\\\Unreal Projects\\\\BOI\\\\Source\\\\BOI\\\\BOI.h",
+		"command": "cl.exe @\"C:\\Users\\Matthew\\Documents\\Unreal Projects\\BOI\\.vscode\\compileCommands_BOI\\BOI.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Matthew\\\\Documents\\\\Unreal Projects\\\\BOI\\\\Source\\\\BOI\\\\BOICharacter.cpp",
+		"command": "cl.exe @\"C:\\Users\\Matthew\\Documents\\Unreal Projects\\BOI\\.vscode\\compileCommands_BOI\\BOI.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Matthew\\\\Documents\\\\Unreal Projects\\\\BOI\\\\Source\\\\BOI\\\\BOICharacter.h",
+		"command": "cl.exe @\"C:\\Users\\Matthew\\Documents\\Unreal Projects\\BOI\\.vscode\\compileCommands_BOI\\BOI.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Matthew\\\\Documents\\\\Unreal Projects\\\\BOI\\\\Source\\\\BOI\\\\BOIGameMode.cpp",
+		"command": "cl.exe @\"C:\\Users\\Matthew\\Documents\\Unreal Projects\\BOI\\.vscode\\compileCommands_BOI\\BOI.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Matthew\\\\Documents\\\\Unreal Projects\\\\BOI\\\\Source\\\\BOI\\\\BOIGameMode.h",
+		"command": "cl.exe @\"C:\\Users\\Matthew\\Documents\\Unreal Projects\\BOI\\.vscode\\compileCommands_BOI\\BOI.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Matthew\\\\Documents\\\\Unreal Projects\\\\BOI\\\\Source\\\\BOI\\\\BOIPlayerController.cpp",
+		"command": "cl.exe @\"C:\\Users\\Matthew\\Documents\\Unreal Projects\\BOI\\.vscode\\compileCommands_BOI\\BOI.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Matthew\\\\Documents\\\\Unreal Projects\\\\BOI\\\\Source\\\\BOI\\\\BOIPlayerController.h",
+		"command": "cl.exe @\"C:\\Users\\Matthew\\Documents\\Unreal Projects\\BOI\\.vscode\\compileCommands_BOI\\BOI.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Matthew\\\\Documents\\\\Unreal Projects\\\\BOI\\\\Source\\\\BOI\\\\ProjectileBase.cpp",
+		"command": "cl.exe @\"C:\\Users\\Matthew\\Documents\\Unreal Projects\\BOI\\.vscode\\compileCommands_BOI\\BOI.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Matthew\\\\Documents\\\\Unreal Projects\\\\BOI\\\\Source\\\\BOI\\\\ProjectileBase.h",
+		"command": "cl.exe @\"C:\\Users\\Matthew\\Documents\\Unreal Projects\\BOI\\.vscode\\compileCommands_BOI\\BOI.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	}
+]
